@@ -397,13 +397,15 @@ h2, .h2 {
 h3, .h3 {
   font-size: 1.640625rem;
   color:#008cba;
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 }
 
 h4, .h4 {
   font-size: 1.40625rem;
   color:#008cba;
+  text-align: center;
+  margin-top: 20px;
 }
 
 h5, .h5 {
@@ -514,6 +516,10 @@ mark,
   height: auto;
 }
 
+.img-border {
+  border:1px solid #008cba;
+}
+
 .figure {
   display: inline-block;
   float: left;
@@ -582,6 +588,7 @@ pre code {
   color:gray; 
   line-height: 2;
   background-color: white;
+  object-fit: scale-down;
 }
 
 
@@ -3308,10 +3315,10 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.9375rem;
-  color: #222;
+  color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #008cba;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0px;
@@ -4866,7 +4873,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-color: #6edbff;
+  background-color: #0085b1;
 }
 
 .navbar-dark .navbar-text {
