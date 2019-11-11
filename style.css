@@ -76,6 +76,11 @@ body {
   outline: 0 !important;
 }
 
+.box {
+    background-color: white;
+    margin: 3px;
+}
+
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -379,17 +384,21 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.34375rem;
+  color:#008cba;
+  margin-top: 20px;
 }
 
 h2, .h2 {
   font-size: 1.875rem;
   color:#008cba;
+  margin-top: 20px;
 }
 
 h3, .h3 {
   font-size: 1.640625rem;
   color:#008cba;
   text-align: center;
+  margin-top: 20px;
 }
 
 h4, .h4 {
@@ -514,6 +523,7 @@ mark,
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
+  text-align: center;
 }
 
 .figure-caption {
@@ -564,13 +574,14 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
+  padding-right: 50px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
   color:gray; 
   line-height: 2;
+  background-color: white;
 }
 
 
@@ -4433,7 +4444,6 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 1rem;
   background-color: white
 }
 

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather Visualization Dashboard</title>
+    <title>Weather Visualization - Cloudiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
-        <a href="#" class="navbar-brand"><b>Latitude</b></a>
+        <a href="homepage.html" class="navbar-brand"><b>Latitude</b></a>
         <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item dropdown">
@@ -38,7 +38,7 @@
     <div class = "container">
         <div class = "row">
             <div class = "col-lg-8">
-                <h2><b>Humidity</b></h2>
+                <h2><b>Cloudiness</b></h2>
                 <hr>
                 <a target="_blank" href="resources/assets/images/Fig3.png" class="figure">
                     <img src="resources/assets/images/Fig3.png" alt="Cloudiness Map">
@@ -49,16 +49,20 @@
                 </p>
             </div>
             <div class = "col-lg-4">
-                <h3><b>Visualizations</b></h3>
-                <hr>
-                <a class="figure">
-                    <img src="resources/assets/images/Fig1.png" alt="Temperature Map" height= 103.125 width=150>
-                    <img src="resources/assets/images/Fig2.png" alt="Humidity Map" height= 103.125 width=150>
-                </a>
-                <a class="figure">
-                    <img src="resources/assets/images/Fig3.png" alt="Cloudiness Map" height= 103.125 width=150>
-                    <img src="resources/assets/images/Fig4.png" alt="Wind Speed Map" height= 103.125 width=150>
-                </a>
+                    <h3><b>Visualizations</b></h3>
+                    <hr>
+                    <a class="text-center" href="temp.html">
+                        <img src="resources/assets/images/Fig1.png" alt="Temperature Map" height= 110 width=160>
+                    </a>
+                    <a class="text-center" href="humidity.html">
+                        <img src="resources/assets/images/Fig2.png" alt="Humidity Map" height= 110 width=160>
+                    </a>
+                    <a class="text-center" href="cloudiness.html">
+                        <img src="resources/assets/images/Fig3.png" alt="Cloudiness Map" height= 110 width=160>
+                    </a>
+                    <a class="text-center" href="wind.html">
+                        <img src="resources/assets/images/Fig4.png" alt="Wind Speed Map" height= 110 width=160>
+                    </a>
             </div>
     </div>
 </body>
