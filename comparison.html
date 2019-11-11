@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+        <a href="#" class="navbar-brand"><b>Latitude</b></a>
+            <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Plots
+                        </a>
+                        <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active" href="#">Action</a>
+                            <a class="dropdown-item active" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item active" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-lg-12">
+                <h2><b>Comparisons: Latitude vs. X</b></h2>
+                <hr>
+                <p>
+                    Click on any plot to get an in-depth analysis on the comparisons we looked at.
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-6">
+                <h3>vs. Max Temperature</h3>
+                <img src="resources/assets/images/Fig1.png" alt="Temperature Map" height= 275 width=400>
+            </div>
+            <div class = "col-lg-6">
+                <h3>vs. Humidity</h3>
+                <img src="resources/assets/images/Fig2.png" alt="Humidity Map" height= 275 width=400>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-6">
+                <h3>vs. Cloudiness</h3>
+                <img src="resources/assets/images/Fig3.png" alt="Cloudiness Map" height= 275 width=400>
+            </div>
+            <div class = "col-lg-6">
+                <h3>vs. Wind Speed</h3>
+                <img src="resources/assets/images/Fig4.png" alt="Wind Speed Map" height= 275 width=400>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -383,17 +383,18 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 1.875rem;
-  color:#008cba
+  color:#008cba;
 }
 
 h3, .h3 {
   font-size: 1.640625rem;
-  color:#008cba
+  color:#008cba;
+  text-align: center;
 }
 
 h4, .h4 {
   font-size: 1.40625rem;
-  color:#008cba
+  color:#008cba;
 }
 
 h5, .h5 {
